@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <title>DOM-Calculator</title>
+</head>
+<body>
+    <div id="calculator">
+        <div>
+            <h1 id="Title">DOM Calculator</h1>
+            <input id="Result" type="text">
+        </div>
+        <div class="Firstrow">
+            <button onclick="Clearscreen()" id="clear">C</button>
+            <button onclick="backspace('')" id="backspace">CE</button>
+            <button onclick="display('.')" >,</button>
+            <button onclick="display('*')" id="Operator">X</button>
+        </div>
+        <div class="Secondrow">
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')" >9</button>
+            <button onclick="display('/')" id="Operator">/</button>
+        </div>
+        <div class="Thirdrow">
+                <button onclick="display('4')">4</button>
+                <button onclick="display('5')">5</button>
+                <button onclick="display('6')" >6</button>
+                <button onclick="display('-')" id="Operator">-</button>
+        </div>
+        <div class="Fourthrow">
+                <button onclick="display('1')">1</button>
+                <button onclick="display('2')">2</button>
+                <button onclick="display('3')" >3</button>
+                <button onclick="display('+')" id="Operator">+</button>
+        </div>
+        <div class="Fifthrow">
+            <button onclick="display('0')">0</button>
+            <button onclick="display('00')">00</button>
+            <button onclick="calculate('')" id="btn">=</button>
+        </div>    
+     </div>
+     <script src="script.js"></script>
+     <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>

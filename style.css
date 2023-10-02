@@ -1,0 +1,33 @@
+#calculator{
+  text-align: center;
+  margin-top: 50px;
+}
+button{
+  width: 130px;
+  height: 95px;
+  border: none;
+  border-radius: 5px;
+}
+#btn{
+  width: 266px;
+  background-color:dodgerblue;
+  font-size: x-large;
+}
+#Result{
+background-color: white;
+border: solid black 0.5px;
+color:black;
+font-size: large;
+border-radius:10px;
+width:525px;
+height:100px;
+}
+
+#Operator{
+   color: blue;
+   font-size:large;
+}
+#clear{
+    color: red;
+    font-size: x-large;
+}
